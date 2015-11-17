@@ -1,0 +1,11 @@
+add iso
+http://www.riverlite.co.uk/blog/xenserver-creating-a-local-iso-library/
+add more disk
+https://techhelplist.com/tech-tutorials/41-misc/316-xenserver-create-and-attach-virtual-disk-from-xe-cli
+auto start vm
+http://support.citrix.com/article/CTX133910
+
+nfs 
+depuis le client fait showmount -e ip serveur nfs
+editer le fichier /etc/fstable de client
+ip_serveurNFS:/data/ 	/media/nfs/data/	nfs	user,auto	0	0
